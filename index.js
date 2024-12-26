@@ -39,7 +39,7 @@ const program = new Command();
 program.name("phone").description("CLI to save phone numbers").version("1.0.0");
 program
 	.command("list")
-	.description("list all the existing numbers")
+	.description("list all contacts")
 	.action(() => {
 		const jsonArray = readJsonFile();
 		console.log(jsonArray);
