@@ -47,7 +47,7 @@ program
 
 program
 	.command("add")
-	.description("add a phone number")
+	.description("add contact")
 	.argument("<useName>", "enter the name ")
 	.argument("<phoneNumber>", "enter the phone number ")
 	.action((userName, phoneNumber) => {
